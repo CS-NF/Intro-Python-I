@@ -11,6 +11,10 @@ for more info regarding list comprehensions.
 # Write a list comprehension to produce the array [1, 2, 3, 4, 5]
 
 y = []
+for i in range(6):
+    y.append(i)
+    if 0 in y:
+        y.remove(0)
 
 print (y)
 
@@ -27,6 +31,8 @@ print(y)
 a = ["foo", "bar", "baz"]
 
 y = []
+for i in a:
+    y.append(i.upper())
 
 print(y)
 
