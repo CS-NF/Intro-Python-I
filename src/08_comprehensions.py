@@ -47,8 +47,8 @@ x = input("Enter comma-separated numbers: ").split(',')
 # What do you need between the square brackets to make it work?
 y = []
 
-for i in x:
-    if i % 2 == 0:
-        y.append(i.sdigit()) # used sdigit() to try to check what type of input I'm gettings
+# for i in x:
+#     if i % 2 == 0:
+#         y.append(i.sdigit()) # used sdigit() to try to check what type of input I'm gettings
 
 print(y)
