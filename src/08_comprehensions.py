@@ -23,6 +23,9 @@ print (y)
 
 y = []
 
+for i in range(10):
+    y.append(i ** 3)
+
 print(y)
 
 # Write a list comprehension to produce the uppercase version of all the
@@ -43,5 +46,9 @@ x = input("Enter comma-separated numbers: ").split(',')
 
 # What do you need between the square brackets to make it work?
 y = []
+
+for i in x:
+    if i % 2 == 0:
+        y.append(i.sdigit()) # used sdigit() to try to check what type of input I'm gettings
 
 print(y)
